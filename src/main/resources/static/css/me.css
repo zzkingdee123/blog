@@ -1,0 +1,146 @@
+body{
+    background: url("../img/bg.png");
+}
+
+.m-padded-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+
+.m-padded-tb-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+.m-padded-tiny{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+
+.m-padded-tb{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+.m-padded-tb-large{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+
+.m-padded-tb-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
+}
+
+.m-padded-tb-max{
+    padding-top: 5em !important;
+    padding-bottom: 5em !important;
+}
+
+.m-padded-top-large{
+    padding-top: 3em !important;
+}
+
+/**------text-------------**/
+.m-text-thin{
+    font-weight:300!important;
+}
+.m-text-spaced{
+    letter-spacing: 1px;!important;
+}
+.m-text-lined{
+    line-height: 1.8;
+}
+
+.m-opacity-mini{
+    opacity:0.8 !important;
+}
+/*-------container--------*/
+.m-container{
+    max-width: 72em !important;
+    margin: auto !important;
+}
+
+.m-container-small{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
+/*----margin----*/
+.m-margin-tb-tiny{
+    margin-top: 0.3em!important;
+    margin-bottom: 0.3em!important;
+}
+
+.m-margin-tb-large{
+    margin-top: 5em!important;
+    margin-bottom: 5em!important;
+}
+
+.m-margin-top-small{
+    margin-top: 0.5em!important;
+}
+.m-margin-top{
+    margin-top: 2em!important;
+}
+
+.m-margin-top-large{
+    margin-top: 3em!important;
+}
+
+.m-margin-bottom-small{
+    margin-bottom: 0.5em!important;
+}
+
+m-margin-lr-small{
+    margin-left: 0.3em!important;
+    margin-right: 0.3em!important;
+}
+
+/*----display---*/
+.m-display-inline-block{
+    display: inline-block !important;
+}
+
+
+/*----color---*/
+.m-color-black{
+    color: #333!important;
+}
+
+/*----position----*/
+.m-position-absolute-rt{
+    position: absolute;
+    right:0;
+    top: 0;
+}
+
+/*---shadow----*/
+.m-shadow-small{
+    -webkit-box-shadow:0 4px 8px rgba(0,0,0,0.2)!important ;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2)!important;
+}
+
+.m-mobile-show{
+    display: none !important;
+}
+
+
+/*-------mobile-------*/
+@media screen and (max-width: 768px) {
+    .m-mobile-hide{
+        display: none !important;
+    }
+
+    .m-mobile-show{
+        display: block !important;
+    }
+
+    .m-mobile-wide{
+        width: 100%!important;
+    }
+}
+
+/*------float------*/
+.m-float-left{
+    float: left!important;
+}
